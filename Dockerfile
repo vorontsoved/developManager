@@ -4,5 +4,6 @@ FROM postgres:latest
 ENV POSTGRES_DB=developManager
 ENV POSTGRES_USER=postgres
 ENV POSTGRES_PASSWORD=zxc
+ENV PS=dcsac
 
 EXPOSE 5432
